@@ -31,7 +31,7 @@ npm run build
 ├── src                              // 生产目录
 │   ├── api                          // *与后端进行通信的接口定义
 │   │   ├── index.js                 // 接口定义（统一加载）
-│   │   ├── game_config.js           // 游戏配置接口
+│   │   ├── config.js                // 游戏配置接口（备用...）
 │   │   ├── user.js                  // 用户管理接口
 │   │   ├── host.js                  // 主机管理接口
 │   ├── assets                       // 一些资源文件
@@ -41,7 +41,7 @@ npm run build
 │   │   ├── fetch                    // HTTP通信对象（axios）
 │   │   ├── port_uri                 // 后端uri
 │   │   │   ├── index.js             // 接口uri（统一加载）
-│   │   │   ├── game_config.js       // 游戏配置接口uri
+│   │   │   ├── config.js            // 配置接口uri（备用...）
 │   │   │   ├── user.js              // 用户管理uri
 │   │   │   ├── host.js              // 主机管理uri
 │   │   ├── storage                  // 本地存储接口
